@@ -1,0 +1,27 @@
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 5em;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 10px solid rgba(209, 18, 129, 0.664);
+    border-radius: 15px;
+    color: rgba(255, 255, 255, 0.836);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+
+img {
+    width: 500px;
+    height: 600px;
+    margin: 5px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
